@@ -1,0 +1,331 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+p.text-intro {
+  font-size: 48px;
+  font-family: initial;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: -15px !important;
+  margin-top: -15px !important;
+}
+.size-intro-icon {
+  font-size: 10em !important;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.border-left-paragraph {
+  border-left: 5px solid white;
+  padding-left: 30px;
+}
+.container-no-borders {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row-no-borders {
+  margin-right: 0;
+  margin-left: 0;
+}
+.navbar-custom {
+  background-color: transparent;
+  border: none;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+#intro {
+  background: url(http://2015.phpconference.es/wp-content/uploads/2015/05/barcelona1.jpg);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.vertical-center {
+  height: 32%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#vision-section {
+  background: url(http://www.fondos7.net/wallpaper-original/wallpapers/paisajes-y-reflejos-hermosos-9757.jpg);
+  background-size: cover;
+
+  .content {
+    background-color: rgba(245,245,245,0.90);
+  }
+}
+#video-section {
+  background: url(http://proimagestudio.biz/wp-content/uploads/2014/09/O5A8386_87_88_89_90-E.jpg);
+  background-size: cover;
+
+  .content {
+    background-color: rgba(0,0,0,0.58);
+
+    hr {
+      box-sizing: content-box;
+      height: 1px;
+      width: 270px;
+    }
+  }
+}
+#marketing-section {
+  background: url(http://www.zonal.co.uk/wp-content/uploads/2015/03/miltonparkoxford.jpg);
+  background-size: cover;
+
+  .content {
+    background-color: rgba(255, 0, 0, 0.79);
+  }
+  .space {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  .marketing-text {
+    border-bottom: solid 1px rgba(204, 204, 204, 0.67);
+    line-height: 2em;
+  }
+}
+.right {
+  float: right;
+}
+.menu {
+  list-style: none;
+  line-height: 1.5em;
+  font-size: 33px;
+  margin-top: -47px;
+  font-weight: bold;
+  color: #fff;
+  font-family: serif;
+  padding: 0;
+  width: 200px;
+
+  li {
+    margin-bottom: 5px;
+    padding: 0px 10px 0px 10px;
+    &:hover {
+      background: #000;
+      cursor: pointer;
+    }
+    &.active {
+      font-style: italic;
+      background: #000;
+    }
+    &.active:after {
+      font: normal normal normal 14px/1 FontAwesome;
+      content: "\f138";
+      margin-left: 15px;
+      font-size: 25px;
+    }
+
+  }
+}
+.inside-content-video {
+  p {
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-family: -webkit-body;
+  }
+}
+.marketing-text {
+  color: white;
+  font-size: 20px !important;
+  margin-top: -15px !important;
+  margin-bottom: -15px !important;
+}
+.content-video {
+  margin-bottom: 20px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  color: #fff !important;
+  span:first-child {
+    font-weight: bold;
+  }
+}
+.inside-content {
+  span:first-child {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1.9em;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    padding-bottom: 9px;
+    border-bottom: solid 2px rgba(204, 204, 204, 0.32);
+    display: inline;
+    font-weight: bold;
+  }
+  .red {
+    display: inline;
+    color: red;
+    font-style: normal;
+  }
+}
+.space {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.space-arround {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  /* margin-right: 15px; */
+  padding: 9px 10px 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 34px;
+  height: 43px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.footer {
+  .space-footer {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+  }
+}
+/* Mobile first */
+@media (max-width: 772px){
+  .hidden-xs-custom {
+    display: none !important;
+  }
+}
+@media (max-width: 2000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+  		top: 0;
+  		border-width: 0 0 1px;
+  	}
+    .navbar-collapse.collapse {
+      display: none!important;
+    }
+    .navbar-nav {
+      float: none!important;
+		  margin-top: 7.5px;
+	  }
+	  .navbar-nav>li {
+      float: none;
+    }
+    .navbar-nav>li>a {
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 930px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
